@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Diligenciar formulario</h1>
+    <p id="description">breve explicacion formulario</p>
+    <form id="survey-form" action="">
+        <label id="name-label"><input id="name" type="text" required placeholder="nombre"><br><br></label>
+        <label id="email-label"><input id="email" type="email" required placeholder="email"><br><br></label>
+        <label id="number-label"><input id="number" min="0" max="1000000" type="number" required placeholder="number"><br><br></label>
+
+        <label for="dropdown">seleccione su estado civil</label><br>
+        <select name="estadocivil" id="dropdown">
+            <option value="casado">casado</option>
+            <option value="soltero">soltero</option>
+            <option value="prefierenodecir">prefiere no decir</option>
+
+        </select><br>
+
+        <input type="radio" id="masculino" name="genero" value="email">
+        <label for="masculino">masculino</label>
+        <input type="radio" id="femenino" name="genero" value="phone">
+        <label for="femenino">femenino</label><br>
+        <hr>
+
+        <label><input type="checkbox" value="checkbox"> si </label><br>
+        <label><input type="checkbox" value="checkbox"> no </label><br>
+        <textarea rows="3" cols="80">
+    </textarea>
+
+        <input id="submit" type="submit" value="Click me">
+    </form><br>
+    <hr><br>
+
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
